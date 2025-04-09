@@ -38,6 +38,7 @@
   </dependencies>
 
   <build>
+    <finalName>${project.artifactId}-${revision}-kc${keycloak.version}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
